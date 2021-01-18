@@ -1,0 +1,25 @@
+﻿{
+    "ver": "5.0",
+    "tag": "hipsuser",
+    "data": [
+        {
+            "id": 1,
+            "power": 1,
+            "name": "浏览器历史记录保护",
+            "procname": "*",
+            "treatment": 1,
+            "policies": [
+                {
+                    "montype": 1,
+                    "action_type": 2,
+                    "res_path": "*\\AppData\\Local\\*\\User Data\\Default\\History"
+                },
+                {
+                    "montype": 1,
+                    "action_type": 2,
+                    "res_path": "*\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\*"
+                }
+            ]
+        }
+    ]
+}

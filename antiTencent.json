@@ -1,0 +1,48 @@
+{
+    "ver": "5.0",
+    "tag": "hipsuser",
+    "data": [
+        {
+            "id": 1,
+            "power": 1,
+            "name": "阻止QQ读取系统代理",
+            "procname": "*\\QQ.exe",
+            "treatment": 3,
+            "policies": [
+                {
+                    "montype": 2,
+                    "action_type": 15,
+                    "res_path": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ProxyEnable"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "power": 1,
+            "name": "阻止TIM读取系统代理",
+            "procname": "*\\TIM.exe",
+            "treatment": 3,
+            "policies": [
+                {
+                    "montype": 2,
+                    "action_type": 15,
+                    "res_path": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ProxyEnable"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "power": 1,
+            "name": "阻止Q盾",
+            "procname": "*\\QQProtect.exe",
+            "treatment": 1,
+            "policies": [
+                {
+                    "montype": 1,
+                    "action_type": 15,
+                    "res_path": "*"
+                }
+            ]
+        }
+    ]
+}

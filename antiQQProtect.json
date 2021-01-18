@@ -1,0 +1,21 @@
+﻿{
+    "ver":"5.0",
+    "tag":"ipproto",
+    "data":[
+        {
+            "icmp_type":0,
+            "id":1,
+            "recname":"阻止Q盾联网",
+            "block":1,
+            "procname":"*\\QQProtect.exe",
+            "enabled":true,
+            "lport":"*",
+            "protocol":260,
+            "laddr":"*",
+            "direction":0,
+            "raddr":"*",
+            "rport":"*",
+            "priority":1
+        }
+    ]
+}
